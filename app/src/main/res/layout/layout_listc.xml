@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_list">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2.0dp"
+        android:layout_marginBottom="2.0dp"
+        android:layout_marginRight="3.0dp"
+        android:layout_marginLeft="3.0dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/tv_sector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vacio"
+            android:textColor="@color/colorPrimaryText"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_listtitle"/>
+
+        <TextView
+            android:id="@+id/tv_cause"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vacio"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/size_listtitle"/>
+
+        <TextView
+            android:id="@+id/tv_measure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="@string/vacio"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/size_listtitle"/>
+    </LinearLayout>
+
+</LinearLayout>

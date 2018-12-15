@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/MainPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:id="@+id/nameholder"
+                android:paddingTop="10.0dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tv_namer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5.0dip"
+                    android:text="@string/app_name"
+                    android:textStyle="bold"
+                    android:textSize="25.0sp"
+                    android:singleLine="true"
+                    android:freezesText="true"
+                    android:layout_centerVertical="true"
+                    android:textAppearance="@style/textAppearance"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="5.0dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_frec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/txt_vacio"
+                    android:textSize="@dimen/size_menutitle"
+                    android:textColor="@color/colorSecondaryIcons"
+                    android:layout_centerVertical="true" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="10.0dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tv_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/st_noconnection"
+                    android:textSize="@dimen/size_menutitle"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:textAppearance="@style/textAppearance"/>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="5.0">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_logo"
+                        android:layout_width="@dimen/width_logo"
+                        android:layout_height="@dimen/height_logo"
+                        android:src="@mipmap/ic_launcher"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:gravity="center"
+                            android:id="@+id/btn_playstop"
+                            android:background="@drawable/btn_play"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5.0dip"
+                            android:layout_weight="1.0"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"/>
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="40.0dip"
+                android:paddingRight="40.0dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_width="0.0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.0">
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3.0">
+
+                    <SeekBar
+                        android:id="@+id/sb_volume"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:max="100"
+                        android:progress="50"
+                        android:secondaryProgress="0"
+                        android:thumb="@drawable/thumb"
+                        style="@style/CustomProgressBar" />
+
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/volume"
+                        android:textSize="@dimen/size_volume"
+                        android:textAppearance="@style/textAppearance"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:id="@id/nameholder"
+                android:paddingBottom="15.0dip">
+
+                <LinearLayout
+                    android:gravity="left"
+                    android:orientation="horizontal"
+                    android:id="@id/linearLayout1"
+                    android:layout_width="0.0dip"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10.0dip"
+                    android:layout_weight="0.70">
+
+                    <com.erbol.bo.Utils.RayMenu
+                        android:id="@+id/rm_about"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="right"
+                    android:orientation="horizontal"
+                    android:id="@id/linearLayout1"
+                    android:layout_width="0.0dip"
+                    android:layout_height="match_parent"
+                    android:paddingRight="15.0dip"
+                    android:layout_weight="0.30">
+
+                    <Button
+                        android:id="@+id/menu"
+                        android:background="@drawable/btn_about"
+                        android:layout_width="50dip"
+                        android:layout_height="50dip"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="X"
+                        android:textColor="@color/colorPrimaryIcons"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/menuChildSize"
+                        android:onClick="btnClose"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

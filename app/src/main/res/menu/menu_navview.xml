@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_trafico"
+            android:icon="@drawable/ic_menu"
+            android:title="@string/seccion_1" />
+    </group>
+    <item
+        android:id="@+id/navigation_statistic"
+        android:title="@string/statistic">
+        <menu>
+            <item
+                android:id="@+id/menu_conflic"
+                android:icon="@drawable/ic_menu"
+                android:title="@string/seccion_2"/>
+            <item
+                android:id="@+id/menu_report"
+                android:icon="@drawable/ic_menu"
+                android:title="@string/seccion_4"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_subhead"
+        android:title="@string/type_route">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_driving"
+                    android:icon="@mipmap/driving"
+                    android:title="@string/opcion_m"/>
+                <item
+                    android:id="@+id/menu_walking"
+                    android:icon="@mipmap/walking"
+                    android:title="@string/opcion_w"/>
+                <item
+                    android:id="@+id/menu_cycling"
+                    android:icon="@mipmap/bycicle"
+                    android:title="@string/opcion_b"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="@string/type_map">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/ic_menu"
+                android:title="@string/opcion_1"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/ic_menu"
+                android:title="@string/opcion_2"/>
+            <item
+                android:id="@+id/menu_opcion_3"
+                android:icon="@drawable/ic_menu"
+                android:title="@string/opcion_3"/>
+            <item
+                android:id="@+id/menu_opcion_4"
+                android:icon="@drawable/ic_menu"
+                android:title="@string/opcion_4"/>
+            </group>
+        </menu>
+    </item>
+</menu>

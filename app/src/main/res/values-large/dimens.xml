@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">22dp</dimen>
+    <dimen name="activity_vertical_margin">22dp</dimen>
+
+    <dimen name="intro_title">24sp</dimen>
+    <dimen name="intro_subtitle">22sp</dimen>
+    <!--Notificación cuando no hay radios-->
+    <dimen name="size_notif">26sp</dimen>
+    <!--Listado de radios-->
+    <dimen name="size_listtitle">22sp</dimen>
+    <dimen name="size_logo">75dp</dimen>
+    <!--Titulo del menu-->
+    <dimen name="size_title">45sp</dimen>
+    <!--Titulo del dialogo-->
+    <dimen name="size_dlgtitle">22sp</dimen>
+    <!--Titulo, subtito de menu-->
+    <dimen name="size_menutitle">22sp</dimen>
+    <dimen name="size_menucont">20sp</dimen>
+
+    <dimen name="width_logo">200dp</dimen>
+    <dimen name="height_logo">190dp</dimen>
+
+    <dimen name="size_volume">20sp</dimen>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <!--android:background="@color/colorPrimary"-->
+
+    <ListView
+        android:id="@+id/lv_radios"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.15">
+    </ListView>
+
+    <TextView
+        android:id="@+id/tv_notif"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/txt_notif"
+        android:textColor="@color/colorPrimaryIcons"
+        android:textSize="@dimen/size_notif"
+        android:textAppearance="@style/textAppearance"/>
+
+</LinearLayout>

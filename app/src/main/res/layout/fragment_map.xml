@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30">
+
+            <fragment
+                android:id="@+id/autocomplete_fragments"
+                android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:text="micro" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvNotification"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50"
+                android:gravity="center|center_vertical"
+                android:text="No hay conflictos"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <Button
+                android:id="@+id/btnGaleria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/colorPrimaryIcons"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_weight="250" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:layout_weight="250" >
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/map_totalFMT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </com.google.android.gms.maps.MapView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!--<TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="Verificando su ubicación, aguarde..."
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>-->
+        <!--<ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">-->
+
+            <Button
+                android:id="@+id/btnMyloc"
+                android:layout_width="@dimen/size_btnmap"
+                android:layout_height="@dimen/size_btnmap"
+                android:layout_gravity="center|center_horizontal"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/background_list"
+                android:drawableTop="@mipmap/ic_launcher"/>
+
+            <Button
+                android:id="@+id/btnTraffic"
+                android:layout_width="@dimen/size_btnmap"
+                android:layout_height="@dimen/size_btnmap"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/background_list"
+                android:drawableTop="@mipmap/ic_launcher"/>
+
+            <Button
+                android:id="@+id/btnTransit"
+                android:layout_width="@dimen/size_btnmap"
+                android:layout_height="@dimen/size_btnmap"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/background_list"
+                android:drawableTop="@mipmap/ic_launcher"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnBike"
+                android:layout_width="@dimen/size_btnmap"
+                android:layout_height="@dimen/size_btnmap"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/background_list"
+                android:drawableTop="@mipmap/ic_launcher"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="@dimen/size_btnmap"
+                android:layout_height="@dimen/size_btnmap"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/background_list"
+                android:drawableTop="@mipmap/ic_launcher"
+                android:textStyle="bold"/>
+        <!--</ScrollView>-->
+    </LinearLayout>
+
+</LinearLayout>

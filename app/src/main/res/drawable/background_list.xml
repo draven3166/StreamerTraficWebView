@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape>
+            <gradient
+                android:startColor="@color/colorSecondaryIcons"
+                android:endColor="@color/colorSecondaryIcons"
+                android:angle="270.0"
+                android:centerY="0.5"
+                android:centerColor="@color/colorSecondaryIcons" />
+            <stroke
+                android:width="1.0dip"
+                android:color="@color/colorPrimary" />
+            <corners
+                android:topLeftRadius="1.0dip"
+                android:topRightRadius="1.0dip"
+                android:bottomLeftRadius="1.0dip"
+                android:bottomRightRadius="1.0dip" />
+            <padding
+                android:left="4.0dip"
+                android:top="4.0dip"
+                android:right="4.0dip"
+                android:bottom="4.0dip" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <gradient
+                android:startColor="@color/colorDivider"
+                android:endColor="@color/colorDivider"
+                android:angle="270.0"
+                android:centerY="0.5"
+                android:centerColor="@color/colorDivider" />
+            <stroke
+                android:width="1.0dip"
+                android:color="@color/colorPrimaryDark" />
+            <corners
+                android:topLeftRadius="1.0dip"
+                android:topRightRadius="1.0dip"
+                android:bottomLeftRadius="1.0dip"
+                android:bottomRightRadius="1.0dip" />
+            <padding
+                android:left="4.0dip"
+                android:top="4.0dip"
+                android:right="4.0dip"
+                android:bottom="4.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/colorSecondaryIcons"
+                android:endColor="@color/colorSecondaryIcons"
+                android:angle="270.0"
+                android:centerY="0.5"
+                android:centerColor="@color/colorSecondaryIcons" />
+            <stroke
+                android:width="1.0dip"
+                android:color="@color/colorPrimary" />
+            <corners
+                android:topLeftRadius="1.0dip"
+                android:topRightRadius="1.0dip"
+                android:bottomLeftRadius="1.0dip"
+                android:bottomRightRadius="1.0dip" />
+            <padding
+                android:left="4.0dip"
+                android:top="4.0dip"
+                android:right="4.0dip"
+                android:bottom="4.0dip" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Red Erbol</string>
+    <string name="in_leyend">ERBOL LA RED MULTIMEDIA DE MAYOR COBERTURA EN BOLIVIA</string>
+    <string name="in_cincuenta">\"50 AÑOS JUNTO A TI\"</string>
+    <string name="loading">Iniciando...por favor espere</string>
+
+    <string name="opc_menu"></string>
+    <string name="vacio"></string>
+    <!--nada que vr-->
+    <string name="action_settings">Settings</string>
+    <string name="menu_search">Search</string>
+    <!--Labels-->
+    <string name="volume">- volumen +</string>
+    <string name="txt_play">AL AIRE</string>
+    <string name="txt_stop">Detenido</string>
+    <string name="txt_vacio"></string>
+    <string name="txt_ready">Aplicación iniciada</string>
+    <!--Status-->
+    <string name="st_connecting">Conectando...</string>
+    <string name="st_buffering">Reconectando...</string>
+    <string name="st_ready">Listo</string>
+    <string name="st_playing">AL AIRE</string>
+    <string name="st_paused">Pausa</string>
+    <string name="st_stopped">Stop</string>
+    <string name="st_error">Fuera de linea</string>
+    <string name="btn_init">Comenzar</string>
+    <string name="st_noconnection">Red no disponible</string>
+
+    <string name="dlg_title">Notificación</string>
+    <string name="dlg_msn">Cargando emisoras...</string>
+    <string name="dlg_message">Buscando señal televisiva, por favor aguarde...</string>
+    <string name="dlg_error">Red no disponible, verifique su conexión.</string>
+    <string name="txt_notif">Emisora no encontrada...</string>
+    <string name="txt_load">Emisoras descargados...</string>
+    <string name="txt_error">Error al descargar o actualizar...</string>
+    <string name="txt_cancel">Cancelar</string>
+    <string name="txt_close">Cerrar</string>
+
+    <!-- Menu Titles -->
+    <string name="radio">RADIOS</string>
+    <string name="tvs">CONFLICTOMETRO</string>
+    <string name="news">NOTICIAS</string>
+    <!--Descripcion-->
+    <string name="txt_cradio">Elija las radios disponibles en la lista, podra Iniciar y Detener.</string>
+    <string name="txt_ctv">Permite visualizar los puntos de conflicto.</string>
+    <string name="txt_cnews">Podra ver las noticias actuales y navegar por la página.</string>
+    <string name="txt_share">Compartir Erbol</string>
+
+    <string name="txt_recog">Tu dispositivo no soporta el reconocimiento de voz</string>
+    <string name="voice_prepare">Interpretador de voz no disponible...</string>
+    <string name="txt_origin">Su ubicación actual es, </string>
+    <string name="txt_destiny">Su destino es, </string>
+    <string name="dlg_language">Idioma no soportado o no instalado en su dispositivo. "\n" ¿Desea instalar el idioma a utilizar?</string>
+
+    <string name="txt_interprete">No cuenta con un interpretador de voz...</string>
+
+    <string name="txt_maddress">Estoy aquí</string>
+
+    <string name="selected_place">Last Selected Place:</string>
+
+    <string name="usuario">Opciones de Mapa</string>
+    <string name="seccion_1">Estado de tráfico</string>
+    <string name="seccion_2">Conflictómetro</string>
+    <string name="seccion_3">Buscar por voz</string>
+    <string name="seccion_4">Reportes</string>
+    <string name="statistic">Estadistica</string>
+    <string name="type_route">Tipo de Ruta</string>
+    <string name="opcion_m">Movilidad</string>
+    <string name="opcion_w">Caminando</string>
+    <string name="opcion_b">Bicicleta</string>
+    <string name="type_map">Tipo de Mapa</string>
+    <string name="opcion_1">Normal</string>
+    <string name="opcion_2">Satelite</string>
+    <string name="opcion_3">Terreno</string>
+    <string name="opcion_4">Hibrido</string>
+    <string name="navigate">NAVEGAR</string>
+    <string name="ldestiny">Destino no fijado</string>
+
+    <string name="action_close">CERRAR</string>
+    <string name="dialog_titlel">Información del conflicto</string>
+    <string name="dialog_titles">Estadística de conflictos</string>
+    <string name="econclict">Existe conflicto</string>
+
+    <string name="fragment1">Fragment 1</string>
+    <string name="fragment2">Fragment 2</string>
+    <string name="fragment3">Fragment 3</string>
+
+    <string name="search_conflict">Buscando conflictos</string>
+    <string name="list_conflict">Conflictos econtrados</string>
+    <string name="non_conflict">No existe conflictos</string>
+    <string name="non_figure">El conflicto no cuenta con localización</string>
+</resources>
